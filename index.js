@@ -16,13 +16,13 @@ catch(err)
 {
     joke.innerHTML = err;
 }
-        .then((res) =>res.json())
-        .then((data) =>{
-            joke.innerHTML = data.joke;
-        })
-        .catch((err)=>{
-            joke.innerHTML = err;
-        })
+        // .then((res) =>res.json())
+        // .then((data) =>{
+        //     joke.innerHTML = data.joke;
+        // })
+        // .catch((err)=>{
+        //     joke.innerHTML = err;
+        // })
 }
 
 jokeBtn.addEventListener('click', jenerateJokes);
